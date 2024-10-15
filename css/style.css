@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(234, 239, 236);
 }
 
 header h1 {
@@ -56,25 +56,68 @@ nav a:hover {
     height: 560px;
 }
 
+/*contenido de página*/
 article {
     text-align: justify;
     margin-left: 143px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-.actividades {
-    background-color: rgb(189, 189, 189);
-    width: 90%;
-    height: 300px;
-    border-radius: 20px;
-}
-.separador {
-    background-color: rgb(255, 255, 255);
-    width: 80%;
-    height: 25px;
-}
 
 
+.act {
+    display: flex;
+    background-color: #ced7e2c6;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgb(185, 218, 187);
+    max-width: 1200px;
+    margin: 20px;
+    height: 250px;
+}
+
+.act_imagen {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.act_contenido {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.act_contenido h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+}
+
+.act_contenido p {
+    font-size: 18px;
+    color: #565555;
+    margin: 10px 0;
+}
+
+.act_btn_reservar {
+    background-color: #486b78;
+    color: #f1e6e6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: start;
+}
+
+.act_btn_reservar:hover {
+    background-color: #66add0;
+}
+/*Pie de página*/
 footer {
     background-color: rgb(220, 218, 218);
     width: 100%;
@@ -96,23 +139,8 @@ footer {
 .info p {
     color: rgb(108, 105, 105);
 }
-
-/* Boton Reservar */ 
-.btn_reserva {
-    background-color: rgb(125, 181, 235);
-    width: 95px;
-    height: 45px;
-    border-radius: 20px;
+.carousel-item img {
+    width: 100%;
+    height: 700px; /* Ajusta la altura que prefieras */
+    object-fit: cover; /* Recorta las imágenes para que se ajusten sin deformarse */
 }
-.reservar {
-    text-align: center;
-    padding-top: 10px;
-}
-.reservar a {
-    text-decoration: none;
-    color: black;
-}
-.btn_reserva:hover {
-    background-color: rgb(84, 180, 122);
-}
-
