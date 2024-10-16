@@ -55,16 +55,20 @@ nav a:hover {
     width: 100%;
     height: 560px;
 }
-
+.buscar{
+    display: inline-block;
+    background-color: #df4917;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0;
+}
 /*contenido de página*/
 article {
+
     text-align: justify;
-    margin-left: 143px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-
-
 .act {
     display: flex;
     background-color: #ced7e2c6;
@@ -74,6 +78,8 @@ article {
     max-width: 1200px;
     margin: 20px;
     height: 250px;
+    margin-left: 150px;
+
 }
 
 .act_imagen {
@@ -82,6 +88,11 @@ article {
     object-fit: cover;
     margin-top: 45px;
     margin-left: 20px;
+}
+.carousel-item img {
+    width: 100%;       /* Ajusta el ancho para que ocupe el espacio completo del carrusel */
+    max-height: 400px; /* Ajusta la altura máxima a lo que desees */
+    object-fit: contain; /* Mantén las proporciones de la imagen sin recortarla */
 }
 
 .act_contenido {
