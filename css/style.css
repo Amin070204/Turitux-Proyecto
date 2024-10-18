@@ -1,9 +1,12 @@
+/*Inicio de Página*/
 * {
     margin: 0;
     padding: 0;
 }
 body {
     background-color: rgb(234, 239, 236);
+    margin: 0;
+    padding: 0;
 }
 
 header h1 {
@@ -55,6 +58,8 @@ nav a:hover {
     width: 100%;
     height: 560px;
 }
+
+/*Contenido de página*/
 .buscar{
     display: inline-block;
     background-color: #df4917;
@@ -62,12 +67,29 @@ nav a:hover {
     height: 100px;
     margin-bottom: 0;
 }
-/*contenido de página*/
-article {
+.carousel-item img {
+    width: 100%;       /* Ajusta el ancho para que ocupe el espacio completo del carrusel */
+    max-height: 400px; /* Ajusta la altura máxima a lo que desees */
+    object-fit: contain; /* Mantén las proporciones de la imagen sin recortarla */
+    object-fit: cover;
+    padding-left: 85px;
+    padding-right: 85px;
+}
 
+article {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+.title{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #66add0;
+    margin-top: 50px;
+    align-content: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 .act {
     display: flex;
@@ -81,15 +103,6 @@ article {
     margin-left: 150px;
 
 }
-.carousel-item img {
-    width: 300px;
-    height: 250px;
-    object-fit: cover;
-    padding-left: 85px;
-    padding-right: 90px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-}
 
 .act_imagen {
     width: 150px;
@@ -97,11 +110,6 @@ article {
     object-fit: cover;
     margin-top: 45px;
     margin-left: 20px;
-}
-.carousel-item img {
-    width: 100%;       /* Ajusta el ancho para que ocupe el espacio completo del carrusel */
-    max-height: 400px; /* Ajusta la altura máxima a lo que desees */
-    object-fit: contain; /* Mantén las proporciones de la imagen sin recortarla */
 }
 
 .act_contenido {
@@ -127,8 +135,8 @@ article {
     background-color: #486b78;
     color: #f1e6e6;
     border: none;
-    border-radius: 5px;
-    padding: 8px 12px;
+    border-radius: 10px;
+    padding: 5px 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     align-self: start;
@@ -138,29 +146,34 @@ article {
     background-color: #66add0;
 }
 /*Pie de página*/
-footer {
+.pie_pagina{
     background-color: rgb(220, 218, 218);
     width: 100%;
     height: 250px;
-    text-align: center;
+    content: normal;
+    text-align: justify;
 }
 
-.tabla {
-    padding-left: 400px;
+.pie_imagen {
+    width: 35px;
+    height: 40px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 40px;
 }
-.act1 {
-    padding-top: 15px;
-    padding-left: 15px;
+.pie_informacion {
+    margin-left: 150px;
+    position: relative;
+    top: -20px; /* Cambia el valor para moverlo hacia arriba o abajo */
+    line-height: 0.9; /* Espaciado de 1.5 veces el tamaño de la fuente */
+    left: 250px;
+    
 }
-.info {
-    padding-left: 15px;
-    padding-right: 10px;
+
+.pie_explorar {
+    position: relative;
+    top: -170px; /* Cambia el valor para moverlo hacia arriba o abajo */
+    left: 700px;
+    line-height: 0.9; /* Espaciado de 1.5 veces el tamaño de la fuente */
 }
-.info p {
-    color: rgb(108, 105, 105);
-}
-.carousel-item img {
-    width: 100%;
-    height: 700px; /* Ajusta la altura que prefieras */
-    object-fit: cover; /* Recorta las imágenes para que se ajusten sin deformarse */
-}
+
