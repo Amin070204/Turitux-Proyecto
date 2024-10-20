@@ -62,12 +62,31 @@ nav a:hover {
 
 /*Contenido de página*/
 /*Diego Merida*/
-.buscar{
-    display: inline-block;
-    background-color: #df4917;
-    width: 100%;
-    height: 100px;
-    margin-bottom: 0;
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #5c85d6;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3b5ba9;
 }
 /*Diego Merida*/
 
