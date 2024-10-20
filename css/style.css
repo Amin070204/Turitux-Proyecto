@@ -60,7 +60,6 @@ nav a:hover {
     height: 560px;
 }
 
-/*Contenido de página*/
 /*Diego Merida*/
 .search-container {
     display: flex;
@@ -90,6 +89,7 @@ button:hover {
 }
 /*Diego Merida*/
 
+/*Contenido de página*/
 article {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
