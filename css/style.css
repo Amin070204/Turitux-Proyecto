@@ -159,35 +159,77 @@ article {
 .act_btn_reservar:hover {
     background-color: #66add0;
 }
-/*Pie de página*/
+/*Pie de página    rgb(220, 218, 218);*/
 .pie_pagina{
-    background-color: rgb(220, 218, 218);
+    background-color: rgb(78, 74, 74);
     width: 100%;
     height: 250px;
     content: normal;
     text-align: justify;
 }
-
+.imagenes{
+    background-color: #3c3a39;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    margin-left: 90px;
+    height: 140px;
+    width: 400px;
+    top: 60px;
+    position: relative;
+}
 .pie_imagen {
-    width: 35px;
+    width: 55px;
     height: 40px;
     position: relative;
-    margin-top: 80px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: rgb(102, 145, 145);
+    border-radius: 20px;
+}
+.pie_imagen ::after{
+    pointer-events: stroke;
+    color: aqua;
 }
 .pie_informacion {
     margin-left: 150px;
     position: relative;
-    top: -20px; /* Cambia el valor para moverlo hacia arriba o abajo */
+    top: -90px; /* Cambia el valor para moverlo hacia arriba o abajo */
     line-height: 0.9; /* Espaciado de 1.5 veces el tamaño de la fuente */
-    left: 250px;
-    
+    left: 600px;
+    background-color: #3c3a39;
+    width: 180px;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+.pie_informacion p{
+    color: rgb(155, 152, 152);
+}
+.pie_informacion h5{
+    color: white;
 }
 
 .pie_explorar {
     position: relative;
-    top: -170px; /* Cambia el valor para moverlo hacia arriba o abajo */
-    left: 700px;
+    top: -250px; /* Cambia el valor para moverlo hacia arriba o abajo */
+    left: 1000px;
     line-height: 0.9; /* Espaciado de 1.5 veces el tamaño de la fuente */
+    background-color: #3c3a39;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 190px;
+    height: auto;
+    border-radius: 15px;
+    padding-right: 10px;
 }
-
+.pie_explorar p{
+    color: rgb(155, 152, 152);
+    text-align: justify;
+}
+.pie_explorar h5{
+    color: white;
+}
