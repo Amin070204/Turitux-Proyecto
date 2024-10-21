@@ -14,13 +14,27 @@ header h1 {
 }
 /*Jeshua*/
 .encabezado img{
-    width: 100%;
+    margin-top: 4%;
+    width: 20%;
     height: 250px;
+    border-color: #ccc;
 }
-/**/
+.encabezado {
+    text-align: center;
+    padding: 20px;
+    background-color: #d0dce4;
+}
+.encabezado h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    color: #283e51; 
+    margin: 0;
+    text-shadow: 1px 1px 5px rgba(247, 240, 240, 0.2); 
+}
+/*Jeshua*/
 /* Menu de Navegacion Victor */
 nav {
-    background: linear-gradient(90deg, #4b79a1, #283e51);
+    background-color: #868a88;
     width: 100%;
     height: 60px; 
     display: inline-block;
@@ -32,25 +46,45 @@ nav {
 }
 nav ul {
     list-style-type: none;
+    padding-top: 14px;
     margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: right;
 }
+
 nav li {
-    display: inline-block;
-    margin-right: 30px;
-    padding: 18px 0;
+    margin: 0 20px;
+    position: relative;
 }
+
 nav a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3em;
-    color: white;
-    padding-bottom: 3px;
     text-decoration: none;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
+    font-size: 1.2em;
+    color: #010101;
+    padding: 8px 0;
+    transition: color 0.3s ease;
 }
+
+nav .active a {
+    color: #9c5c54; /* Color del elemento activo */
+    font-weight: bold;
+    border-bottom: 2px solid #565245; /* Línea inferior */
+}
+ 
 nav a:hover {
-    color: #ffcc00; 
-    border-bottom: 3px solid skyblue; 
+    color: white; /* Color de hover */
+    border-bottom: 3px solid rgb(13, 13, 14); 
+}
+
+/* Indicador visual debajo del enlace activo */
+nav .active::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 3px;
+    border-bottom: 3px solid #ffcc00; /* Color de la línea */
+    transition: width 0.3s ease;
 }
 /*Victor*/
 .banner {
