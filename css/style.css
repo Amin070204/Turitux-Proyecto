@@ -17,12 +17,12 @@ header h1 {
     margin-top: 4%;
     width: 100%;
     height: 250px;
-    border-color: #ccc;
+    border-color: white;
 }
 .encabezado {
     text-align: center;
     padding: 20px;
-    background-color: #d0dce4;
+    background-color: white;
 }
 .encabezado h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -128,7 +128,7 @@ article {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background: rgba(217, 217, 217, 1);
+    background: white;
     
 }
 .carousel-item img {
@@ -138,7 +138,7 @@ article {
     object-fit: cover;
     padding-left: 85px;
     padding-right: 85px;
-    background-color: rgba(217, 217, 217, 1);
+    background-color: white;
 }
 
 .title{
@@ -162,7 +162,7 @@ article {
 }
 .act {
     display: flex;
-    background-color: rgb(251, 249, 249);
+    background-color: #f2f2f2;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgb(142, 142, 147);
@@ -171,7 +171,6 @@ article {
     height: 250px;
     margin-left: 200px;
     margin-right: 180px;
-
 }
 
 .act_imagen {
@@ -241,7 +240,7 @@ article {
     margin-top: 50px;
     margin-left: 60px;
     background-color: rgb(171, 177, 175);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .pie_imagen ::after{
     pointer-events: stroke;
