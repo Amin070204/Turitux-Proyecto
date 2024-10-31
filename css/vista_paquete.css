@@ -87,15 +87,13 @@ nav .active::after {
     transition: width 0.3s ease;
 }
 
+
 /*Contenido*/
 article{
     width: 100%;
     height: 1200px;
-<<<<<<< HEAD
     background-color: rgba(239, 243, 239, 1);
-=======
-    background-color: white;
->>>>>>> 6b5804fe3ec95f557853283e9bbb37f653470016
+    
 }
 label{
     position: relative;
@@ -123,35 +121,8 @@ a :hover{
     display: flex;
     align-items: center; /* Alineación vertical */
 }
-<<<<<<< HEAD
 .paquete{ /*Diseño de los paquetes*/
     background-color: rgba(255, 255, 255, 1);
-=======
-.paquete{
-    background-color: #f2f2f2;
-    box-shadow: 0 4px 6px rgb(142, 142, 147);
-    width: 280px;
-    height: 485px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    top: 70px;
-    right: 20px;
-    left: 180px;
-    margin-left: 80px;
-    position: relative;
-}
-
-.paquetes2{
-    padding-top: 65px;
-    display: flex;
-    align-items: center; /* Alineación vertical */
-}
-.paquete2{
-    background-color: #f2f2f2;
-    box-shadow: 0 4px 6px rgb(142, 142, 147);
->>>>>>> 6b5804fe3ec95f557853283e9bbb37f653470016
     width: 280px;
     height: 485px;
     display: flex;
@@ -322,6 +293,7 @@ Paquetes Moderado
 /*
 Contenido
 */
+
 
 /*Pie de página    rgb(220, 218, 218);*/
 .pie_pagina{
