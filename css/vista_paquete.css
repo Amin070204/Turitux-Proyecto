@@ -101,7 +101,7 @@ label{
     left: 950px;
     padding-left: 10px;
     border-radius: 10px;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgb(212, 212, 212);
     max-height: 40px;
     text-align: center;
     padding-top: 10px;
@@ -142,6 +142,32 @@ a :hover{
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+    /* Imagen */
+    background-image: url(../img/paquetes/chiapadecorzo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.titlepac {
+    color: white;
+    padding-top: 190px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+    /* Texto */
+    padding-top: 40px;
+    text-align: center;
+    color: #f7dc6f;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img_two{
@@ -150,6 +176,15 @@ a :hover{
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+    /* Imagen */
+    background-image: url(../img/paquetes/palenque.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img_thre{
@@ -158,6 +193,15 @@ a :hover{
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+    /* Imagen */
+    background-image: url(../img/paquetes/sancris.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .seccion2_paquetes{ /*Clase para ordenar los paquetes o movil entre ellos*/
     display: flex;
@@ -171,6 +215,15 @@ a :hover{
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+            /* Imagen */
+            background-image: url(../img/paquetes/aguaazul.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Texto */
+            color: gray;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
 }
 .img_cinco{
     width: 252px;
@@ -178,6 +231,15 @@ a :hover{
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+            /* Imagen */
+            background-image: url(../img/paquetes/comitandmg.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Texto */
+            color: gray;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
 }
 .img_seis{
     width: 252px;
@@ -185,6 +247,15 @@ a :hover{
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+            /* Imagen */
+            background-image: url(../img/paquetes/simcotorras.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Texto */
+            color: gray;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
 }
 /*Paquetes superior*/
 
@@ -198,6 +269,15 @@ Paquetes intermedio
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+            /* Imagen */
+            background-image: url(../img/paquetes/csumidero.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Texto */
+            color: gray;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
 }
 .img_intermedio_dos{
     width: 252px;
@@ -205,6 +285,15 @@ Paquetes intermedio
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+    /* Imagen */
+    background-image: url(../img/paquetes/arcote.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .img_intermedio_tres{
     width: 252px;
@@ -212,6 +301,15 @@ Paquetes intermedio
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+    /* Imagen */
+    background-image: url(../img/paquetes/bonampak.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .paquete_intermedio{
     background-color: rgba(255, 255, 255, 1);
@@ -234,6 +332,31 @@ Paquetes intermedio
     position: relative;
     bottom: 105px;
     margin-top: 85px;
+    /* Imagen */
+    background-image: url(../img/paquetes/cascadaschiflon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titlelarge {
+    text-align: left;
+    color: white;
+    padding-top: 95px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textlarge {
+    /* Texto */
+    padding-top: 128px;
+    text-align: center;
+    color: #f7dc6f;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*
 Paquetes intermedio
@@ -242,13 +365,26 @@ Paquetes intermedio
 /*
 Paquetes Moderado
 */
-
+.seccion1_paquetes_mod {
+    display: flex;
+    align-items: center; /* Alineación vertical */
+   margin-left: 165px;
+}
 .img_moderado_uno{
     width: 252px;
     height: 247px;
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+    /* Imagen */
+    background-image: url(../img/paquetes/marimba.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .img_moderado_dos{
     width: 252px;
@@ -256,6 +392,15 @@ Paquetes Moderado
     background-color: rgb(197, 196, 196);
     position: relative;
     bottom: 105px;
+    /* Imagen */
+    background-image: url(../img/paquetes/cristocopoya.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .img_moderado_tres{
     width: 252px;
@@ -280,11 +425,20 @@ Paquetes Moderado
 }
 .img_moderado_cuatro{
     width: 952px;
-    height: 247px;
+    height: 275px;
     background-color: rgb(197, 196, 196);
     position: relative;
-    bottom: 105px;
+    bottom: 100px;
     margin-top: 85px;
+    /* Imagen */
+    background-image: url(../img/paquetes/zoomat.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Texto */
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*
 Paquetes Moderado
